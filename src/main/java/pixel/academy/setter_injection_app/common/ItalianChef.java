@@ -15,6 +15,5 @@ public class ItalianChef implements Chef {
 
     public ItalianChef() {
         System.out.println("In constructor: " + getClass().getSimpleName());
-        System.out.println();
     }
 }

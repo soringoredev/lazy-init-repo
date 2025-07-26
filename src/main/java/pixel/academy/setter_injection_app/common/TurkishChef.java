@@ -11,7 +11,6 @@ public class TurkishChef implements Chef {
 
     public TurkishChef() {
         System.out.println("In constructor: " + getClass().getSimpleName());
-        System.out.println();
     }
 
 }

@@ -11,7 +11,6 @@ public class MexicanChef implements Chef {
 
     public MexicanChef() {
         System.out.println("In constructor: " + getClass().getSimpleName());
-        System.out.println();
     }
 
 }
