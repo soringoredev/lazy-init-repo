@@ -8,4 +8,9 @@ public class MexicanChef implements Chef {
     public String getDailyRecipe() {
         return "Mexican food etc etc";
     }
+
+    public MexicanChef() {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+    }
+
 }

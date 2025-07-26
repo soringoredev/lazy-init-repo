@@ -8,4 +8,9 @@ public class TurkishChef implements Chef {
     public String getDailyRecipe() {
         return "Lulea kebab";
     }
+
+    public TurkishChef() {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+    }
+
 }

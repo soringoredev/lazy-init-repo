@@ -9,4 +9,9 @@ public class FrenchChef implements Chef {
     public String getDailyRecipe() {
         return "Preparez boeuf bourgignon avec des legumes.";
     }
+
+    public FrenchChef() {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+        System.out.println("Empty");
+    }
 }
